@@ -1,0 +1,28 @@
+{
+  "metadata" : {
+    "id" : "4a9122cf-ef17-4f01-bf25-341f9ed19984",
+    "name" : "DefaultPaymentRisk",
+    "modified_at" : "2022-06-29T14:22:13.518Z",
+    "created_at" : "2022-06-29T14:22:13.518Z",
+    "owner" : "IBMid-663002TCLS",
+    "space_id" : "d1473899-dbcc-442d-9798-7bea602be36e"
+  },
+  "entity" : {
+    "name" : "DefaultPaymentRisk",
+    "space_id" : "d1473899-dbcc-442d-9798-7bea602be36e",
+    "custom" : { },
+    "online" : { },
+    "status" : {
+      "state" : "ready",
+      "online_url" : {
+        "url" : "https://us-south.ml.cloud.ibm.com/ml/v4/deployments/4a9122cf-ef17-4f01-bf25-341f9ed19984/predictions"
+      }
+    },
+    "asset" : {
+      "id" : "6537ee85-f580-4c8e-acf3-79ff221323de"
+    }
+  },
+  "name" : "DefaultPaymentRisk",
+  "status" : "ready",
+  "deployedAt" : "2022-06-29T14:22:13.518Z"
+}

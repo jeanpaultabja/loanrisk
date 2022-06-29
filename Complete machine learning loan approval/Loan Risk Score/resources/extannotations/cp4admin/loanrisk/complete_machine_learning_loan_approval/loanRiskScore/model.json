@@ -1,0 +1,57 @@
+{
+  "metadata" : {
+    "id" : "6537ee85-f580-4c8e-acf3-79ff221323de",
+    "name" : "service-payment-default-risk",
+    "description" : "Model",
+    "modified_at" : "2022-06-28T14:21:06.914Z",
+    "created_at" : "2022-06-28T14:21:06.467Z",
+    "owner" : "IBMid-663002TCLS",
+    "space_id" : "d1473899-dbcc-442d-9798-7bea602be36e"
+  },
+  "entity" : {
+    "type" : "pmml_4.4",
+    "schemas" : {
+      "input" : [ {
+        "id" : "in_1",
+        "fields" : [ {
+          "name" : "creditScore",
+          "type" : "double",
+          "nullable" : true
+        }, {
+          "name" : "income",
+          "type" : "double",
+          "nullable" : true
+        }, {
+          "name" : "loanAmount",
+          "type" : "double",
+          "nullable" : true
+        }, {
+          "name" : "monthDuration",
+          "type" : "double",
+          "nullable" : true
+        }, {
+          "name" : "rate",
+          "type" : "double",
+          "nullable" : true
+        }, {
+          "name" : "yearlyReimbursement",
+          "type" : "double",
+          "nullable" : true
+        } ]
+      } ],
+      "output" : [ {
+        "id" : "out_1",
+        "fields" : [ {
+          "name" : "paymentDefault",
+          "type" : "integer",
+          "nullable" : true
+        } ]
+      } ]
+    }
+  },
+  "id" : "6537ee85-f580-4c8e-acf3-79ff221323de",
+  "name" : "service-payment-default-risk",
+  "description" : "Model",
+  "trainedAt" : "2022-06-28T14:21:06.467Z",
+  "modifiedAt" : "2022-06-28T14:21:06.914Z"
+}
