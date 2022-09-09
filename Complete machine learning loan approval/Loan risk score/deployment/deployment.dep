@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.ibm.rules.studio.model.decisionservice:Deployment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" ruleAppName="cp4admin.loanrisk.complete_machine_learning_loan_approval:loanRiskScore" ruleAppVersion="LATEST-SNAPSHOT" packageName="cp4admin.loanrisk.complete_machine_learning_loan_approval.loanRiskScore" managingXom="true">
-  <name>Loan-Risk-Score</name>
-  <uuid>9bd3e903-622f-4aff-a025-25af481004ac</uuid>
+<com.ibm.rules.studio.model.decisionservice:Deployment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" ruleAppName="cp4admin.loanapproval.complete_machine_learning_loan_approval:loanRiskScore" ruleAppVersion="LATEST-SNAPSHOT" packageName="cp4admin.loanapproval.complete_machine_learning_loan_approval.loanRiskScore" managingXom="true">
+  <name>Loan-risk-score</name>
+  <uuid>a6fd78e0-8778-4dc2-a1b4-556f84fe26c6</uuid>
   <locales>en_US</locales>
   <operations operationName="operation">
-    <operation href="operation.dop#9e59f7b7-4307-4c3d-964b-877612dc1473"/>
+    <operation href="operation.dop#d38a8efd-f964-4b76-b21a-ed57bfa09702"/>
     <properties key="ruleset.version">
       <value><![CDATA[1.0]]></value>
     </properties>

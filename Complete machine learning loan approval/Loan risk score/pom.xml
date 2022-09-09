@@ -2,12 +2,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>cp4admin.loanrisk.complete_machine_learning_loan_approval</groupId>
+        <groupId>cp4admin.loanapproval.complete_machine_learning_loan_approval</groupId>
         <artifactId>completeMachineLearningLoanApproval</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <groupId>cp4admin.loanrisk.complete_machine_learning_loan_approval</groupId>
+    <groupId>cp4admin.loanapproval.complete_machine_learning_loan_approval</groupId>
     <artifactId>loanRiskScore</artifactId>
     <version>LATEST-SNAPSHOT</version>
 
@@ -26,10 +26,10 @@
                 <configuration>
                     <deployments>
                         <deployment>
-                            <name>Loan-Risk-Score</name>
+                            <name>Loan-risk-score</name>
                         </deployment>
                     </deployments>
-                <packageName>cp4admin.loanrisk.complete_machine_learning_loan_approval.loanRiskScore</packageName>
+                <packageName>cp4admin.loanapproval.complete_machine_learning_loan_approval.loanRiskScore</packageName>
                 </configuration>
             </plugin>
         </plugins>

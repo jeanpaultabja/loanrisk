@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="operation" targetRuleProjectName="Loan risk score">
+  <name>Loan-risk-score</name>
+  <uuid>d38a8efd-f964-4b76-b21a-ed57bfa09702</uuid>
+  <decisionModel href="../rules/decisionModel.dmo#ab38048e-9cee-46ca-9d20-ca02e6871c89"/>
+  <targetRuleProject href="../../Loan%20risk%20score#4ca9cf17-9784-4b0f-909f-42755b3660cc"/>
+  <tags key="ProviderType">
+    <value><![CDATA[OPS]]></value>
+  </tags>
+  <tags key="ProviderId">
+    <value><![CDATA[disconnectedProvider]]></value>
+  </tags>
+</com.ibm.rules.studio.model.decisionservice:Operation>

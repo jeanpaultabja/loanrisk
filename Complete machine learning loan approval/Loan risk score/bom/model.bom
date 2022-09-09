@@ -1,5 +1,5 @@
 
-package cp4admin.loanrisk.complete_machine_learning_loan_approval.loanRiskScore;
+package cp4admin.loanapproval.complete_machine_learning_loan_approval.loanRiskScore;
 
 
 public class Error
@@ -60,7 +60,7 @@ public class Output
         }
         property "de.generated" "true"
 {
-    public cp4admin.loanrisk.complete_machine_learning_loan_approval.loanRiskScore.Error error
+    public cp4admin.loanapproval.complete_machine_learning_loan_approval.loanRiskScore.Error error
                 property "ads.attributeId" "4"
                 property "com.fasterxml.jackson.annotation.JsonProperty" "error";
     public java.lang.Long predictedPaymentdefault
@@ -84,13 +84,13 @@ public class Output
                     $gen "com.ibm.decision.ml.integration.xom.InErrorTestGenerator",
                     $target "BOM"
                 };
-    public static Output run(cp4admin.loanrisk.complete_machine_learning_loan_approval.loanRiskScore.Input input)
+    public static Output run(cp4admin.loanapproval.complete_machine_learning_loan_approval.loanRiskScore.Input input)
                 property pureFunction "true";
-    public static Output run(com.ibm.decision.run.RunContext runContext, cp4admin.loanrisk.complete_machine_learning_loan_approval.loanRiskScore.Input input)
+    public static Output run(com.ibm.decision.run.RunContext runContext, cp4admin.loanapproval.complete_machine_learning_loan_approval.loanRiskScore.Input input)
                 property "de.generated" {
                     $gen "com.ibm.decision.ml.integration.xom.PredictionRunGenerator",
                     $target "BOM",
-                    providerInfoId "cp4admin/LoanRisk/wml-complete16565131705614a9122cf-ef17-4f01-bf25-341f9ed19984"
+                    providerInfoId "cp4admin/LoanApproval/wml-complete1662677221663e24ffe5e-b5e0-464c-9522-5ed3b3e1c51c"
                 }
                 property pureFunction "true";
 }

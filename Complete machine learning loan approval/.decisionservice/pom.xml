@@ -4,7 +4,7 @@
         
     <parent>
                 
-        <groupId>cp4admin.loanrisk.complete_machine_learning_loan_approval</groupId>
+        <groupId>cp4admin.loanapproval.complete_machine_learning_loan_approval</groupId>
                 
         <artifactId>completeMachineLearningLoanApproval</artifactId>
                 
@@ -18,11 +18,6 @@
         
     <dependencies>
         <dependency>
-            <groupId>cp4admin.loanrisk.complete_machine_learning_loan_approval</groupId>
-            <artifactId>loanRiskScore</artifactId>
-            <version>LATEST-SNAPSHOT</version>
-        </dependency>
-        <dependency>
             <groupId>decisions.techpreview_samples.loan_validation</groupId>
             <artifactId>loanValidationData</artifactId>
             <version>LATEST-SNAPSHOT</version>
@@ -30,6 +25,11 @@
         <dependency>
             <groupId>decisions.techpreview_samples.loan_validation</groupId>
             <artifactId>loanValidationDecisionModel</artifactId>
+            <version>LATEST-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>cp4admin.loanapproval.complete_machine_learning_loan_approval</groupId>
+            <artifactId>loanRiskScore</artifactId>
             <version>LATEST-SNAPSHOT</version>
         </dependency>
         <dependency>
@@ -47,6 +47,10 @@
         
 
     
+
+
+
+
 
 
 <build>
@@ -74,15 +78,6 @@
                         <configuration>
                             <artifactItems>
                                 <artifactItem>
-                                    <groupId>cp4admin.loanrisk.complete_machine_learning_loan_approval</groupId>
-                                    <artifactId>loanRiskScore</artifactId>
-                                    <version>LATEST-SNAPSHOT</version>
-                                    <type>jar</type>
-                                    <overWrite>false</overWrite>
-                                    <includes>**/*.class</includes>
-                                    <outputDirectory>${project.build.directory}/classes</outputDirectory>
-                                </artifactItem>
-                                <artifactItem>
                                     <groupId>decisions.techpreview_samples.loan_validation</groupId>
                                     <artifactId>loanValidationData</artifactId>
                                     <version>LATEST-SNAPSHOT</version>
@@ -94,6 +89,15 @@
                                 <artifactItem>
                                     <groupId>decisions.techpreview_samples.loan_validation</groupId>
                                     <artifactId>loanValidationDecisionModel</artifactId>
+                                    <version>LATEST-SNAPSHOT</version>
+                                    <type>jar</type>
+                                    <overWrite>false</overWrite>
+                                    <includes>**/*.class</includes>
+                                    <outputDirectory>${project.build.directory}/classes</outputDirectory>
+                                </artifactItem>
+                                <artifactItem>
+                                    <groupId>cp4admin.loanapproval.complete_machine_learning_loan_approval</groupId>
+                                    <artifactId>loanRiskScore</artifactId>
                                     <version>LATEST-SNAPSHOT</version>
                                     <type>jar</type>
                                     <overWrite>false</overWrite>

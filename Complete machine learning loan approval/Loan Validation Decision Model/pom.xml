@@ -4,7 +4,7 @@
         
     <parent>
                 
-        <groupId>cp4admin.loanrisk.complete_machine_learning_loan_approval</groupId>
+        <groupId>cp4admin.loanapproval.complete_machine_learning_loan_approval</groupId>
                 
         <artifactId>completeMachineLearningLoanApproval</artifactId>
                 
@@ -70,7 +70,7 @@
             <version>LATEST-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>cp4admin.loanrisk.complete_machine_learning_loan_approval</groupId>
+            <groupId>cp4admin.loanapproval.complete_machine_learning_loan_approval</groupId>
             <artifactId>loanRiskScore</artifactId>
             <version>LATEST-SNAPSHOT</version>
         </dependency>

@@ -1,7 +1,7 @@
 {
   "borrower": {
     "creditScore": 100,
-    "yearlyIncome": 100000,
+    "yearlyIncome": 1000000,
     "firstName": "Paul"
   },
   "loan": {

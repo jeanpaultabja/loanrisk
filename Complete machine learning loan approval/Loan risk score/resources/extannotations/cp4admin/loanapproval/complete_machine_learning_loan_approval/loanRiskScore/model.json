@@ -1,12 +1,11 @@
 {
   "metadata" : {
-    "id" : "6537ee85-f580-4c8e-acf3-79ff221323de",
-    "name" : "service-payment-default-risk",
-    "description" : "Model",
-    "modified_at" : "2022-06-28T14:21:06.914Z",
-    "created_at" : "2022-06-28T14:21:06.467Z",
+    "id" : "df1818ae-1bc1-4e13-8029-63fc7be0a32c",
+    "name" : "Loan Prediction SPSS",
+    "modified_at" : "2022-09-08T21:58:38.595Z",
+    "created_at" : "2022-09-08T21:58:38.176Z",
     "owner" : "IBMid-663002TCLS",
-    "space_id" : "d1473899-dbcc-442d-9798-7bea602be36e"
+    "space_id" : "d82eb9c1-fd12-45a1-9ce0-09172488f511"
   },
   "entity" : {
     "type" : "pmml_4.4",
@@ -49,9 +48,8 @@
       } ]
     }
   },
-  "id" : "6537ee85-f580-4c8e-acf3-79ff221323de",
-  "name" : "service-payment-default-risk",
-  "description" : "Model",
-  "trainedAt" : "2022-06-28T14:21:06.467Z",
-  "modifiedAt" : "2022-06-28T14:21:06.914Z"
+  "id" : "df1818ae-1bc1-4e13-8029-63fc7be0a32c",
+  "name" : "Loan Prediction SPSS",
+  "trainedAt" : "2022-09-08T21:58:38.176Z",
+  "modifiedAt" : "2022-09-08T21:58:38.595Z"
 }

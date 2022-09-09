@@ -9,7 +9,7 @@
   </paths>
   <paths xsi:type="ilog.rules.studio.model.bom:BOMPath" pathID="BOM">
     <entries xsi:type="ilog.rules.studio.model.bom:DecisionLibraryBOMEntry" name="decisions.techpreview_samples.loan_validation:loanValidationData#LATEST-SNAPSHOT" packageId="decisions.techpreview_samples.loan_validation:loanValidationData" version="LATEST-SNAPSHOT"/>
-    <entries xsi:type="ilog.rules.studio.model.bom:DecisionLibraryBOMEntry" name="cp4admin.loanrisk.complete_machine_learning_loan_approval:loanRiskScore#LATEST-SNAPSHOT" packageId="cp4admin.loanrisk.complete_machine_learning_loan_approval:loanRiskScore" version="LATEST-SNAPSHOT"/>
+    <entries xsi:type="ilog.rules.studio.model.bom:DecisionLibraryBOMEntry" name="cp4admin.loanapproval.complete_machine_learning_loan_approval:loanRiskScore#LATEST-SNAPSHOT" packageId="cp4admin.loanapproval.complete_machine_learning_loan_approval:loanRiskScore" version="LATEST-SNAPSHOT"/>
   </paths>
   <modelFolders xsi:type="ilog.rules.studio.model.base:SourceFolder">
     <name>rules</name>

@@ -2,7 +2,7 @@
         
     <modelVersion>4.0.0</modelVersion>
         
-    <groupId>cp4admin.loanrisk.complete_machine_learning_loan_approval</groupId>
+    <groupId>cp4admin.loanapproval.complete_machine_learning_loan_approval</groupId>
         
     <artifactId>completeMachineLearningLoanApproval</artifactId>
         
@@ -16,14 +16,14 @@
         <buildTime>${maven.build.timestamp}</buildTime>
         <maven-shade-plugin.version>3.2.4</maven-shade-plugin.version>
         <junit.jupiter.version>5.8.0</junit.jupiter.version>
-        <jackson.version>2.12.6</jackson.version>
+        <jackson.version>2.13.2</jackson.version>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven-dependency-plugin.version>3.1.2</maven-dependency-plugin.version>
         <maven-surefire-plugin.version>3.0.0-M5</maven-surefire-plugin.version>
         <maven.build.timestamp.format>yyyy-MM-dd'T'HH:mm:ss'Z'</maven.build.timestamp.format>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <ml-integration-runtime.version>22.0.5</ml-integration-runtime.version>
-        <ads-mojo.version>6.1.5.1</ads-mojo.version>
+        <ml-integration-runtime.version>22.0.6</ml-integration-runtime.version>
+        <ads-mojo.version>6.1.5.3</ads-mojo.version>
     </properties>
         
     <dependencyManagement>
@@ -62,9 +62,9 @@
     </dependencyManagement>
     <modules>
         <module>.decisionservice</module>
-        <module>Loan Risk Score</module>
         <module>Loan Validation Data</module>
         <module>Loan Validation Decision Model</module>
+        <module>Loan risk score</module>
     </modules>
         
     <build>
